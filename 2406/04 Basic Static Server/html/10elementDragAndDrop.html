@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- dragNDrop.html
+     adapated from: Sebesta "Programming The World Wide Web" 6th ed. chapter 
+     6An example to illustrate the DOM 2 Event model
+     This example shows words hardcoded as HTML <span> elements
+     which can be dragged by the mouse using javascript functions.
+     -->
+<html>
+  <head>
+    <title> Drag and drop </title>
+    <script type = "text/javascript"  src = "elementDragNDrop.js" >
+    </script>
+  </head> 
+  <body style = "font-size: 20;">
+    <p>
+      Peaceful Easy Feeling<br />
+      -Jack Tempchin<br />
+
+      <span style = "position: absolute; top: 200px; left: 4px; background-color: lightgrey;"
+            onmousedown = "grabber(event);"> I </span>
+      <span style = "position: absolute; top: 200px; left: 60px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> like </span>
+      <span style = "position: absolute; top: 200px; left: 150px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> the </span>
+      <span style = "position: absolute; top: 200px; left: 225px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> way </span>
+      <span style = "position: absolute; top: 200px; left: 300px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> your </span>
+      <span style = "position: absolute; top: 200px; left: 375px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> sparkling </span>
+      <span style = "position: absolute; top: 200px; left: 470px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> earrings </span>
+      <span style = "position: absolute; top: 200px; left: 540px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> lay </span>
+      <span style = "position: absolute; top: 250px; left: 4px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> Against </span>
+      <span style = "position: absolute; top: 250px; left: 80px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> your </span>
+      <span style = "position: absolute; top: 250px; left: 150px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> skin </span>
+      <span style = "position: absolute; top: 250px; left: 200px;  
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> so </span>
+      <span style = "position: absolute; top: 250px; left: 240px;
+                     background-color: lightgrey;"
+            onmousedown = "grabber(event);"> brown </span>
+      
+    </p>
+  </body>
+</html>
+

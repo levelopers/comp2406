@@ -1,0 +1,90 @@
+/*
+An external style sheet
+notice the use of c-style comments and not html-style comments
+
+This example shows a simple @media query that will only
+format multiple columns on the page if the screen is wide enough
+*/
+body {
+	font-family: arial;
+}
+img {
+    max-width: 100%;
+	height: auto;
+}
+
+.red {
+	color: firebrick
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+.Header {
+	background-color: darkgrey;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+@media screen and (min-width: 600px) {
+	.BodyWrapper {
+		margin-left: 80px;
+		margin-right: 60px;
+	}
+	.Wrapper {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+   }
+
+    .SplashImage{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+    .ContactInfo {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        margin-left: 40px;
+        padding-left: 40px;
+	}
+    .Label{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+		width: 20%;
+    }
+	.Content {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        margin-left: 40px;
+        padding-left: 40px;
+	}
+
+    .IntroText {
+        padding: .5rem;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .Ingredients {
+        font-size: .9rem;
+        float: right;
+        padding: 1rem;
+        margin: 0 0 .5rem 1rem;
+        border-radius: 3px;
+        background-color: #ffffdf;
+        border: 2px solid #e8cfa9;
+    }
+
+    .Ingredients h3 {
+        margin: 0;
+    }
+}
