@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+- Example shows drawing strings on the canvas and
+  dragging individual strings around with the mouse.
+
+  In this example the HTML elements are not being
+  dragged. The strings are javascript objects.
+
+  When the canvas reacts to the mouse down event
+  other event handlers will be added to the DOM
+  to handle the mouse move and mouse release
+
+  Notice in this source file there are no pre-attached
+  mouse event handlers. They will be added using jQuery in the
+  supporting javascript file.
+
+
+-->
+<html>
+   <head>
+     <title>2406 A1</title>
+     <script src="jquery-1.11.3.js"></script>
+
+      <style>
+         body {
+            background: #dddddd;
+         }
+		 p {
+			 font-size: large;
+			 font-weight: bold;
+			 font-family: "Courier", Monospace;
+		 }
+
+		 /*element selectors: */
+		 canvas {
+		    margin: 20px;
+			/*important here for padding to be 0 for mouse calculations */
+            padding: 0px;
+		 }
+		 /* class selectors: */
+		 .canvas {
+            background: #ffffff;
+            border: thin inset #aaaaaa;
+         }
+
+         /*id selectors: */
+
+         #canvas1 {
+         }
+
+
+      </style>
+   </head>
+
+  <body>
+    <canvas id='canvas1' class='canvas' width='1000' height='600'>
+      Canvas not supported
+    </canvas>
+    <br>
+    <input type = "text"  id="userTextField" name = "userTextField"  value="" size = "60" />
+    <input type="button" value="Submit Request" onClick="handleSubmitButton()">
+    <div>
+      <input type="button" value="Transpose Up" onClick="handleTransposeUpButton()">
+      <input type="button" value="Transpose Down" onClick="handleTransposeDownButton()">  
+    </div>
+	<div id="text-area">
+	</div>
+
+    <script src='canvasWithTimer.js'></script>
+  </body>
+</html>
