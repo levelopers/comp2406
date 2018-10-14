@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>index </title>
+  </head>
+  <body>
+    <h1>HEllO!!</h1>
+    <h3>Please go check http://localhost:3000/assignment2.html </h3>
+  <h3>  or click the button to redirect </h3>
+
+    <input type="button" name="click" value="click here.."
+    onclick="window.location='http://localhost:3000/assignment2.html'"/>
+    <div id="text_area">
+
+    </div>
+    <script type="text/javascript">
+    let lines = ["Sister Golden Hair -America", "verse1:", "Well I [E] tried to make it sunday but I [G#min] got so damned depressed", "That I [A] set my sights on [E] monday and I [G#min] got myself undressed", "I ain't ready for the alter, but I [C#min] do [G#min] believe there's [A] times", "When a [F#min] woman sure can [A] be a friend of [E] mine [Esus2] [E]", ""]
+    let area = document.getElementById('text_area')
+    for (line of lines) {
+      if (line!=="") {
+        area.innerHTML += line
+
+      }
+    }
+
+    </script>
+  </body>
+</html>
