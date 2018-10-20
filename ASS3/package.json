@@ -1,0 +1,15 @@
+{
+  "name": "COMP2406_assignment3",
+  "version": "1.0.0",
+  "description": "broadcast ball game",
+  "main": "server.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "L.D. Nel's student",
+  "license": "ISC",
+  "dependencies": {
+    "save": "^2.3.2",
+    "socket.io": "^2.1.1"
+  }
+}
