@@ -9,7 +9,7 @@ having fun!
 
 ASSIGNMENT 1 :  read file on server and send JSON object to client side page
 
-        Open and read files on the server.
+      Open and read files on the server.
         
 	Send JSON objects from server to browser in response to a request.
         
@@ -23,9 +23,9 @@ ASSIGNMENT 1 :  read file on server and send JSON object to client side page
 
 ASSIGNMENT 2 :  generate client side and server side two way traffic and manage string format
 
-        Open and read files on the server.
+      Open and read files on the server.
        
-       	Send JSON objects between browser and server.
+      Send JSON objects between browser and server.
         
 	generate chord pro format based on text file and print on screen
         
