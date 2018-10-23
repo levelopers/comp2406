@@ -11,9 +11,9 @@ let allBalls = [
   {name:`ball1`,x:startX+ball_radius, y:startY-ball_radius, x_speed:0, y_speed:0, direction:[0,0],color:`red`},
   {name:`ball2`,x:startX + ball_radius, y:505, x_speed:0, y_speed:0, direction:[0,0],color:`red`},
   {name:`ball3`,x:startX+100, y:37, x_speed:0, y_speed:0, direction:[0,0],color:`red`},
-  {name:`ball4`,x:startX+150, y:37, x_speed:0, y_speed:0, direction:[0,0],color:`yellow`},
-  {name:`ball5`,x:startX+175, y:37, x_speed:0, y_speed:0, direction:[0,0],color:`yellow`},
-  {name:`ball5`,x:startX+190, y:37, x_speed:0, y_speed:0, direction:[0,0],color:`yellow`}
+  {name:`ball4`,x:startX+150, y:100, x_speed:0, y_speed:0, direction:[0,0],color:`yellow`},
+  {name:`ball5`,x:startX+175, y:200, x_speed:0, y_speed:0, direction:[0,0],color:`yellow`},
+  {name:`ball6`,x:startX+190, y:300, x_speed:0, y_speed:0, direction:[0,0],color:`yellow`}
 
 
 

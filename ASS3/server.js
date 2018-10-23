@@ -84,11 +84,11 @@ let clientNumber = 0
 io.on("connection",function (socket) {
 
   clientNumber = Object.keys(io.sockets.connected).length
-    console.log(clientNumber);
+    console.log('player number : '+clientNumber);
     // console.log(socket.id);
     socket.join('playground', () => {
         let rooms = Object.keys(socket.rooms);
-        console.log(rooms); // [ <socket.id>, 'room 237' ]
+        // console.log(rooms); // [ <socket.id>, 'room 237' ]
         // io.to('room 237').emit('a new user has joined the room'); // broadcast to everyone in the room
       });
 
