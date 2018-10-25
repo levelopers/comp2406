@@ -1,0 +1,8 @@
+First, with the sync version, try the following:
+
+Make the search pattern into a regular expression.
+Give it an additional argument that causes matched lines to be output to a new file. You'll need to use writeFileSync() from the Node fs module. When finished, output "All done!" to the console.
+Make the output lines sorted in alphabetical order.
+Then, do all of the above with the async version. Make sure to use writeFile(), not writeFileSync()!
+
+You may find the following methods useful when working with arrays:push(), pop(), shift(), unshift(), and join().
