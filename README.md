@@ -1,10 +1,16 @@
 # 2406AFall2018
 
+
+
 works are not gonna be submitted, just for practice
 
 you can find valuable pieces as part your assignment work
 
 having fun!
+
+## 2406Winter_assignments 
+[click](./2406Winter_assignments)
+
 
 
 ASSIGNMENT 1 :  read file on server and send JSON object to client side page
