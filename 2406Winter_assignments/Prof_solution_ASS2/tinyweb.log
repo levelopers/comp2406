@@ -1,0 +1,30 @@
+Server listening at http://localhost:8080/
+200	GET	/
+Server listening at http://localhost:3000/
+Aliasing / to /hello.html
+404	GET	/
+   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Server listening at http://localhost:3000/
+Aliasing / to /hello.html
+404	GET	/
+   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+404	GET	/favicon.ico
+   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+   referer: http://localhost:3000/
+Server listening at http://localhost:3000/
+Aliasing / to /hello.html
+404	GET	/
+Aliasing / to /hello.html
+404	GET	/
+Server listening at http://localhost:3000/
+Aliasing / to /hello.html
+404	GET	/
+Aliasing / to /hello.html
+404	GET	/
+Aliasing /index.html to /hello.html
+404	GET	/index.html
+Aliasing /index.html to /hello.html
+404	GET	/index.html
+Server listening at http://localhost:3000/
+Aliasing /index.html to /hello.html
+200	GET	/index.html

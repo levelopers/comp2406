@@ -1,0 +1,13 @@
+{
+    "host": "localhost",
+    "port": 3000,
+    "index": "index.html",
+    "docroot": ".",
+    "logged-headers": ["user-agent", "referer"],
+    "logfile": "myLogFile.log",
+    "errorPage": "errorPage.html",
+    "aliases": {
+	"/": "/index.html",
+	"/really/cool.html": "/notcool.html"
+    }
+}
