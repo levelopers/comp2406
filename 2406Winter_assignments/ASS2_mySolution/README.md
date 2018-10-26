@@ -30,8 +30,8 @@ https://nodejs.org/en/
  
  1.Add a new 777 status code if there is a request for any document with the word "lucky" in its URL (path or document name).
  
- 2.Add a command line argument which is the name of a configuration file. This file should contain the contents of the options object. Note that tinyweb.js should start up correctly without this option file being specified; in this case it should behave as tinywebserver.js does (with respect to the options, not the lucky return code).
+ 2.Add a command line argument which is the name of a configuration file. This file should contain the contents of the options object. Note that app.js should start up correctly without this option file being specified; in this case it should behave as app.js does (with respect to the options, not the lucky return code).
  
- 3.In the configuration file add the following properties to the option object that change the behavior of the app as follows (note it should also contain all the options that were already part of the options object):
+ 3.output config file with request properties
  
       
