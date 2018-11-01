@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+
+  div
+    p Search your recipes!!
+    form(method="post", action="/recipe_page")
+      div
+        input#search(type="text", name="search")
+        label search
+
+      button(type="submit") Submit

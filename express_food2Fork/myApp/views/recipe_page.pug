@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    h1= title
+
+    div
+      div
+      table
+        thead
+          th title
+          th rank
+          th detail
+        tbody
+          each item in items
+            tr
+             td #{item.title}
+             td #{item.social_rank}
+             td a(href=#{item.f2f_url})
+
+
+
+
+
+
+
+    form(method="get", action="/")
+      button(type="submit") Home
