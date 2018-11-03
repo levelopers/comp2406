@@ -2,7 +2,7 @@
 
 ### instruction
     
-     1.download and extract myApp.zip file 
+     1.download and extract myApp.rar file 
      
      2.open command in "./myApp" directory type : ( if you have already installed npm globally)
          npm install
