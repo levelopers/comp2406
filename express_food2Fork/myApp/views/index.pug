@@ -4,10 +4,9 @@ block content
   h1= title
 
   div
-    p Search your recipes!!
+    h2 Search your recipes!!
     form(method="post", action="/recipe_page")
-      div
-        input#search(type="text", name="search")
+      .form-group
         label search
-
-      button(type="submit") Submit
+        input.form-control#search(type="text", name="search")
+      button.btn.btn-primary(type="submit") Submit

@@ -40,7 +40,7 @@ function sendResponse(data,res) {
   if (data) {
     // console.log(data);
     let obj = JSON.parse(data)
-    console.log(obj);
+    // console.log(obj);
     res.render('recipe_page', { title: 'i got your recipe', items: obj.recipes });
 
   }

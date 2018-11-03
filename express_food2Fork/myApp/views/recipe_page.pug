@@ -5,8 +5,8 @@ block content
 
     div
       div
-      table
-        thead
+      table.table
+        thead.thead-dark
           th title
           th rank
           th detail
@@ -15,7 +15,12 @@ block content
             tr
              td #{item.title}
              td #{item.social_rank}
-             td a(href=#{item.f2f_url})
+             td 
+              - const obj = {"url":item.f2f_url,"img":item.image_url}
+              //- -const obj={"url":"url","img":"img"}
+              a(href=obj.url)
+                - const pstyle={"width":"100%"}
+                img(src=obj.img,style=pstyle)
 
 
 
