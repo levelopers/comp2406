@@ -1,0 +1,14 @@
+{
+  "name": "05-tut",
+  "version": "1.0.0",
+  "description": "mogoDemo",
+  "main": "storeLogLine.js",
+  "scripts": {
+    "test": "node storeLogLine.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.8"
+  }
+}

@@ -1,0 +1,225 @@
+Feb 17 08:00:49 chimera colord[892]: (colord:892): Cd-WARNING **: failed to get session [pid 8862]: No such device or address
+Feb 17 08:00:49 chimera colord[892]: (colord:892): Cd-WARNING **: failed to get session [pid 8862]: No such device or address
+Feb 17 08:02:31 chimera anacron[8503]: Job `cron.daily' terminated
+Feb 17 08:02:31 chimera anacron[8503]: Job `cron.weekly' started
+Feb 17 08:02:31 chimera anacron[8932]: Updated timestamp for job `cron.weekly' to 2016-02-17
+Feb 17 08:02:49 chimera anacron[8503]: Job `cron.weekly' terminated
+Feb 17 08:02:49 chimera anacron[8503]: Normal exit (2 jobs run)
+Feb 17 08:17:01 chimera CRON[8955]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 17 09:17:01 chimera CRON[8970]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 17 10:17:01 chimera CRON[8988]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 17 11:17:01 chimera CRON[9002]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 17 11:22:50 chimera systemd[1]: getty@tty1.service: Service has no hold-off time, scheduling restart.
+Feb 17 11:22:50 chimera systemd[1]: Stopped Getty on tty1.
+Feb 17 11:22:50 chimera systemd[1]: Started Getty on tty1.
+Feb 17 11:22:59 chimera org.gtk.vfs.Daemon[8231]: A connection to the bus can't be made
+Feb 17 11:22:59 chimera systemd[1]: Started Session c9 of user soma.
+Feb 17 11:22:59 chimera org.a11y.Bus[9117]: Activating service name='org.a11y.atspi.Registry'
+Feb 17 11:22:59 chimera org.a11y.Bus[9117]: Successfully activated service 'org.a11y.atspi.Registry'
+Feb 17 11:22:59 chimera org.a11y.atspi.Registry[9188]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Feb 17 11:22:59 chimera org.gnome.ScreenSaver[9117]: ** (gnome-screensaver:9300): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files
+Feb 17 11:22:59 chimera gnome-session[9244]: gnome-session[9244]: WARNING: Could not parse desktop file evolution-alarm-notify.desktop or it references a not found TryExec binary
+Feb 17 11:22:59 chimera gnome-session[9244]: WARNING: Could not parse desktop file evolution-alarm-notify.desktop or it references a not found TryExec binary
+Feb 17 11:22:59 chimera gnome-session[9244]: gnome-session[9244]: WARNING: Could not parse desktop file gnome-do.desktop or it references a not found TryExec binary
+Feb 17 11:22:59 chimera gnome-session[9244]: WARNING: Could not parse desktop file gnome-do.desktop or it references a not found TryExec binary
+Feb 17 11:22:59 chimera gnome-session[9244]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Feb 17 11:22:59 chimera gnome-session[9244]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Feb 17 11:22:59 chimera gnome-session[9244]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Feb 17 11:22:59 chimera dbus[769]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Feb 17 11:22:59 chimera systemd[1]: Starting Locale Service...
+Feb 17 11:22:59 chimera gnome-session[9244]: Entering running state
+Feb 17 11:22:59 chimera gnome-session[9244]: (process:9393): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+Feb 17 11:22:59 chimera gnome-session[9244]: (process:9393): indicator-application-service-WARNING **: Name Lost
+Feb 17 11:22:59 chimera dbus[769]: [system] Successfully activated service 'org.freedesktop.locale1'
+Feb 17 11:22:59 chimera systemd[1]: Started Locale Service.
+Feb 17 11:22:59 chimera org.gtk.Private.AfcVolumeMonitor[9117]: Volume monitor alive
+Feb 17 11:23:00 chimera gnome-session[9244]: Starting Dropbox...Initializing nautilus-dropbox 2.10.0
+Feb 17 11:23:00 chimera gnome-session[9244]: Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Feb 17 11:23:00 chimera gnome-session[9244]: Please ask your system administrator to enable user sharing.
+Feb 17 11:23:00 chimera org.gnome.ScreenSaver[9117]: ** Message: Lost the name, shutting down.
+Feb 17 11:23:00 chimera gnome-session[9244]: Dropbox isn't running!
+Feb 17 11:23:00 chimera gnome-session[9244]: Done!
+Feb 17 11:23:04 chimera kernel: [69384.421871] usb 1-2: new high-speed USB device number 7 using xhci_hcd
+Feb 17 11:23:04 chimera kernel: [69384.551616] usb 1-2: New USB device found, idVendor=05ac, idProduct=12a8
+Feb 17 11:23:04 chimera kernel: [69384.551618] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Feb 17 11:23:04 chimera kernel: [69384.551620] usb 1-2: Product: iPhone
+Feb 17 11:23:04 chimera kernel: [69384.551621] usb 1-2: Manufacturer: Apple Inc.
+Feb 17 11:23:04 chimera kernel: [69384.551622] usb 1-2: SerialNumber: 286c35b17b8655729ac13c6583c8d45ea7fa6235
+Feb 17 11:23:04 chimera kernel: [69384.551713] usb 1-2: ep 0x2 - rounding interval to 8 microframes, ep desc says 10 microframes
+Feb 17 11:23:04 chimera kernel: [69384.551716] usb 1-2: ep 0x81 - rounding interval to 8 microframes, ep desc says 10 microframes
+Feb 17 11:23:04 chimera mtp-probe: checking bus 1, device 7: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2"
+Feb 17 11:23:04 chimera mtp-probe: bus: 1, device: 7 was not an MTP device
+Feb 17 11:23:04 chimera systemd[1]: Started Socket daemon for the usbmux protocol used by Apple devices.
+Feb 17 11:23:04 chimera org.gtk.Private.GPhoto2VolumeMonitor[9117]: (process:9462): GVFS-GPhoto2-WARNING **: device (null) has no BUSNUM property, ignoring
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.269][3] usbmuxd v1.1.0 starting up
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.271][3] Successfully dropped privileges to 'usbmux'
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.273][3] Could not get old configuration descriptor for device 1-7: -5
+Feb 17 11:23:04 chimera kernel: [69384.585530] usb 1-2: ep 0x2 - rounding interval to 8 microframes, ep desc says 10 microframes
+Feb 17 11:23:04 chimera kernel: [69384.585534] usb 1-2: ep 0x81 - rounding interval to 8 microframes, ep desc says 10 microframes
+Feb 17 11:23:04 chimera colord[892]: (colord:892): Cd-WARNING **: CdMain: failed to emit DeviceAdded: failed to register object: An object is already exported for the interface org.freedesktop.ColorManager.Device at /org/freedesktop/ColorManager/devices/sysfs__null_
+Feb 17 11:23:04 chimera org.gtk.Private.GPhoto2VolumeMonitor[9117]: (process:9462): GVFS-GPhoto2-WARNING **: device (null) has no BUSNUM property, ignoring
+Feb 17 11:23:04 chimera org.gtk.Private.GPhoto2VolumeMonitor[9117]: message repeated 2 times: [ (process:9462): GVFS-GPhoto2-WARNING **: device (null) has no BUSNUM property, ignoring]
+Feb 17 11:23:04 chimera colord[892]: (colord:892): Cd-WARNING **: CdMain: failed to emit DeviceAdded: failed to register object: An object is already exported for the interface org.freedesktop.ColorManager.Device at /org/freedesktop/ColorManager/devices/sysfs__null_
+Feb 17 11:23:04 chimera kernel: [69385.032413] ipheth 1-2:4.2: Apple iPhone USB Ethernet device attached
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.721][3] Connecting to new device on location 0x10007 as ID 1
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.721][3] Initialization complete
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.721][3] Enabled exit on SIGUSR1 if no devices are attached. Start a new instance with "--exit" to trigger.
+Feb 17 11:23:04 chimera usbmuxd[9659]: [11:23:04.721][3] Connected to v2.0 device 1 on location 0x10007 with serial number 286c35b17b8655729ac13c6583c8d45ea7fa6235
+Feb 17 11:23:04 chimera kernel: [69385.036449] ipheth 1-2:4.2 enx06db561e51aa: renamed from eth1
+Feb 17 11:23:04 chimera NetworkManager[794]: <warn>  (enx06db561e51aa): failed to find device 5 'enx06db561e51aa' with udev
+Feb 17 11:23:04 chimera NetworkManager[794]: <info>  (enx06db561e51aa): new Ethernet device (carrier: OFF, driver: 'ipheth', ifindex: 5)
+Feb 17 11:23:04 chimera NetworkManager[794]: <info>  devices added (path: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:4.2/net/enx06db561e51aa, iface: enx06db561e51aa)
+Feb 17 11:23:04 chimera NetworkManager[794]: <info>  device added (path: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:4.2/net/enx06db561e51aa, iface: enx06db561e51aa): no ifupdown configuration found.
+Feb 17 11:23:04 chimera NetworkManager[794]: <info>  (enx06db561e51aa): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Feb 17 11:23:04 chimera kernel: [69385.063987] IPv6: ADDRCONF(NETDEV_UP): enx06db561e51aa: link is not ready
+Feb 17 11:23:04 chimera kernel: [69385.064544] IPv6: ADDRCONF(NETDEV_UP): enx06db561e51aa: link is not ready
+Feb 17 11:23:04 chimera org.gtk.Private.AfcVolumeMonitor[9117]: creating volume for device uuid '286c35b17b8655729ac13c6583c8d45ea7fa6235'
+Feb 17 11:23:04 chimera gnome-session[9244]: (nautilus:9705): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+Feb 17 11:23:04 chimera gnome-session[9244]: (nautilus:9705): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+Feb 17 11:23:04 chimera gnome-session[9244]: (nautilus:9705): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+Feb 17 11:23:05 chimera dbus[769]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Feb 17 11:23:05 chimera systemd[1]: Starting Hostname Service...
+Feb 17 11:23:05 chimera gnome-session[9244]: (nautilus:9392): Gtk-WARNING **: Refusing to add non-unique action 'TerminalNautilus:OpenFolderLocal' to action group 'ExtensionsMenuGroup'
+Feb 17 11:23:05 chimera dbus[769]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Feb 17 11:23:05 chimera systemd[1]: Started Hostname Service.
+Feb 17 11:23:07 chimera ModemManager[814]: <info>  Couldn't find support for device at '/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2': not supported by any plugin
+Feb 17 11:23:10 chimera gnome-session[9244]: (nm-applet:9394): nm-applet-WARNING **: Could not find ShellVersion property on org.gnome.Shell after 5 tries
+Feb 17 11:23:19 chimera bluetoothd[925]: Endpoint unregistered: sender=:1.197 path=/MediaEndpoint/A2DPSource
+Feb 17 11:23:19 chimera bluetoothd[925]: Endpoint unregistered: sender=:1.197 path=/MediaEndpoint/A2DPSink
+Feb 17 11:23:19 chimera systemd[1]: Stopping User Manager for UID 119...
+Feb 17 11:23:19 chimera systemd[8218]: Stopped target Default.
+Feb 17 11:23:19 chimera systemd[8218]: Reached target Shutdown.
+Feb 17 11:23:19 chimera systemd[8218]: Starting Exit the Session...
+Feb 17 11:23:19 chimera systemd[8218]: Stopped target Basic System.
+Feb 17 11:23:19 chimera systemd[8218]: Stopped target Paths.
+Feb 17 11:23:19 chimera systemd[8218]: Stopped target Sockets.
+Feb 17 11:23:19 chimera systemd[8218]: Stopped target Timers.
+Feb 17 11:23:19 chimera systemd[8218]: Received SIGRTMIN+24 from PID 9863 (kill).
+Feb 17 11:23:19 chimera systemd[1]: Stopped User Manager for UID 119.
+Feb 17 11:23:19 chimera systemd[1]: Removed slice user-119.slice.
+Feb 17 11:23:20 chimera org.gnome.zeitgeist.Engine[9117]: ** (zeitgeist-datahub:9901): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Feb 17 11:26:05 chimera dbus[769]: [system] Activating service name='org.debian.apt' (using servicehelper)
+Feb 17 11:26:05 chimera AptDaemon: INFO: Initializing daemon
+Feb 17 11:26:05 chimera org.debian.apt[769]: 11:26:05 AptDaemon [INFO]: Initializing daemon
+Feb 17 11:26:05 chimera dbus[769]: [system] Successfully activated service 'org.debian.apt'
+Feb 17 11:26:05 chimera AptDaemon.PackageKit: INFO: Initializing PackageKit compat layer
+Feb 17 11:26:05 chimera org.debian.apt[769]: 11:26:05 AptDaemon.PackageKit [INFO]: Initializing PackageKit compat layer
+Feb 17 11:26:05 chimera AptDaemon: INFO: CommitPackages() was called: dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('libc-bin'), dbus.String('libc-dev-bin'), dbus.String('libc6'), dbus.String('libc6-dbg'), dbus.String('libc6-dev'), dbus.String('libc6-i386'), dbus.String('libc6:i386'), dbus.String('multiarch-support')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s'))
+Feb 17 11:26:05 chimera org.debian.apt[769]: 11:26:05 AptDaemon [INFO]: CommitPackages() was called: dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s')), dbus.Array([dbus.String('libc-bin'), dbus.String('libc-dev-bin'), dbus.String('libc6'), dbus.String('libc6-dbg'), dbus.String('libc6-dev'), dbus.String('libc6-i386'), dbus.String('libc6:i386'), dbus.String('multiarch-support')], signature=dbus.Signature('s')), dbus.Array([dbus.String('')], signature=dbus.Signature('s'))
+Feb 17 11:26:05 chimera AptDaemon.Trans: INFO: Queuing transaction /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:05 chimera org.debian.apt[769]: 11:26:05 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:05 chimera AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:05 chimera org.debian.apt[769]: 11:26:05 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:05 chimera AptDaemon.Worker: INFO: Committing packages: dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([dbus.String('libc-bin'), dbus.String('libc-dev-bin'), dbus.String('libc6'), dbus.String('libc6-dbg'), dbus.String('libc6-dev'), dbus.String('libc6-i386'), dbus.String('libc6:i386'), dbus.String('multiarch-support')], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s'))
+Feb 17 11:26:05 chimera org.debian.apt[769]: 11:26:05 AptDaemon.Worker [INFO]: Committing packages: dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s')), dbus.Array([dbus.String('libc-bin'), dbus.String('libc-dev-bin'), dbus.String('libc6'), dbus.String('libc6-dbg'), dbus.String('libc6-dev'), dbus.String('libc6-i386'), dbus.String('libc6:i386'), dbus.String('multiarch-support')], signature=dbus.Signature('s')), dbus.Array([], signature=dbus.Signature('s'))
+Feb 17 11:26:06 chimera AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:06 chimera org.debian.apt[769]: 11:26:06 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:17 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:20 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: unable to initialize frontend: Gnome
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: (Can't locate Gtk2.pm in @INC (you may need to install the Gtk2 module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Gnome.pm line 91.)
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: falling back to frontend: Dialog
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: unable to initialize frontend: Dialog
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: (TERM is not set, so the dialog frontend is not usable.)
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: falling back to frontend: Readline
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: unable to initialize frontend: Readline
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: (This frontend requires a controlling tty.)
+Feb 17 11:26:21 chimera gnome-session[9244]: debconf: falling back to frontend: Teletype
+Feb 17 11:26:21 chimera AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:26:21 chimera org.debian.apt[769]: /usr/lib/python3/dist-packages/aptdaemon/progress.py:491: Warning: Source ID 41 was not found when attempting to remove it
+Feb 17 11:26:21 chimera org.debian.apt[769]: GLib.source_remove(id)
+Feb 17 11:26:21 chimera org.debian.apt[769]: /usr/lib/python3/dist-packages/aptdaemon/progress.py:491: Warning: Source ID 42 was not found when attempting to remove it
+Feb 17 11:26:21 chimera org.debian.apt[769]: GLib.source_remove(id)
+Feb 17 11:26:21 chimera org.debian.apt[769]: 11:26:21 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/16edf11a75b44da19b44276a15e07748
+Feb 17 11:27:01 chimera com.ubuntu.OneConf[9117]: WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/soma/.cache/oneconf/abd3fa0a95d54ffa981e509496af671d/other_hosts'
+Feb 17 11:37:05 chimera AptDaemon: INFO: Quitting due to inactivity
+Feb 17 11:37:05 chimera AptDaemon: INFO: Quitting was requested
+Feb 17 11:37:05 chimera org.debian.apt[769]: 11:37:05 AptDaemon [INFO]: Quitting due to inactivity
+Feb 17 11:37:05 chimera org.debian.apt[769]: 11:37:05 AptDaemon [INFO]: Quitting was requested
+Feb 17 12:17:01 chimera CRON[11362]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 17 12:23:00 chimera org.gnome.evolution.dataserver.Sources4[9117]: ** (evolution-source-registry:9372): WARNING **: secret_service_search_sync: must specify at least one attribute to match
+Feb 17 12:27:11 chimera kernel: [73235.320020] ipheth 1-2:4.2: ipheth_rcvbulk_callback: urb status: -71
+Feb 17 12:27:11 chimera usbmuxd[9659]: [12:27:11.808][3] Removed device 1 on location 0x10007
+Feb 17 12:27:11 chimera kernel: [73235.320271] usb 1-2: USB disconnect, device number 7
+Feb 17 12:27:11 chimera avahi-daemon[783]: Withdrawing workstation service for enx06db561e51aa.
+Feb 17 12:27:11 chimera NetworkManager[794]: <info>  devices removed (path: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:4.2/net/enx06db561e51aa, iface: enx06db561e51aa)
+Feb 17 12:27:11 chimera NetworkManager[794]: <info>  (enx06db561e51aa): device state change: unavailable -> unmanaged (reason 'removed') [20 10 36]
+Feb 17 12:27:11 chimera NetworkManager[794]: <warn>  (enx06db561e51aa): failed to disable userspace IPv6LL address handling
+Feb 17 12:27:11 chimera usbmuxd[9659]: [12:27:11.838][3] usbmuxd shutting down
+Feb 17 12:27:11 chimera org.gtk.Private.AfcVolumeMonitor[9117]: removing volume for device uuid '286c35b17b8655729ac13c6583c8d45ea7fa6235'
+Feb 17 12:27:11 chimera org.gtk.vfs.Daemon[9117]: Shutting down AFC backend for device uuid 286c35b17b8655729ac13c6583c8d45ea7fa6235
+Feb 17 12:27:11 chimera kernel: [73235.349298] ipheth 1-2:4.2: Apple iPhone USB Ethernet now disconnected
+Feb 17 12:27:11 chimera usbmuxd[9659]: [12:27:11.939][3] Shutdown complete
+Feb 17 12:46:01 chimera systemd[1]: Reloading.
+Feb 17 12:46:01 chimera systemd[1]: Started CUPS Scheduler.
+Feb 17 12:46:02 chimera systemd[1]: Reloading.
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler.
+Feb 17 12:46:02 chimera systemd[1]: Reloading.
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler.
+Feb 17 12:46:02 chimera systemd[1]: Reloading.
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler.
+Feb 17 12:46:02 chimera systemd[1]: Started An object/document-oriented database.
+Feb 17 12:46:02 chimera systemd[1]: Reloading.
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler.
+Feb 17 12:48:01 chimera com.ubuntu.OneConf[9117]: WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/soma/.cache/oneconf/abd3fa0a95d54ffa981e509496af671d/other_hosts'
+Feb 17 13:09:50 chimera org.gnome.keyring.SystemPrompter[9117]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Feb 17 13:17:01 chimera CRON[12561]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)

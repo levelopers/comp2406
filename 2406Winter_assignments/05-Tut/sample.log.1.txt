@@ -1,0 +1,1 @@
+Feb 17 08:00:49 chimera colord[892]: (colord:892): Cd-WARNING **: failed to get session [pid 8862]: No such device or address
