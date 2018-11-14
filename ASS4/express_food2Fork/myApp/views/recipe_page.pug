@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    h1= title
+
+    div
+      div
+      table.table
+        thead.thead-dark
+          th title
+          th rank
+          th detail
+        tbody
+          each item in items
+            tr
+             td #{item.title}
+             td #{item.social_rank}
+             td 
+              - const obj = {"url":item.f2f_url,"img":item.image_url}
+              //- -const obj={"url":"url","img":"img"}
+              a(href=obj.url)
+                - const pstyle={"width":"100%"}
+                img(src=obj.img,style=pstyle)
+
+
+
+
+
+
+
+    form(method="get", action="/")
+      button(type="submit") Home

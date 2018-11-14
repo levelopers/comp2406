@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  h1= title
+
+  div
+    form.text-center(method="post", action="/recipes")
+      .form-group.row
+        .input-group.mb-3 
+          input.form-control#search.col-md-6(type="text", name="search",placeholder="search your recipes")
+          .input-group-append
+            button.btn.btn-primary(type="submit") Submit
+            form(method="get", action="/")
+                button.btn.btn-success(type="submit") Home
+  
+  if items
+    div.container-fluid
+      div.row
+        each item in items
+          div.card.col-md-4#card
+            - const obj = {"url":item.f2f_url,"img":item.image_url}
+              //- -const obj={"url":"url","img":"img"}
+              a(href=obj.url)
+                img.card-img-top(src=obj.img,style=pstyle)
+            div.card-body
+              h3.card-title #{item.title}
+            
+            
+              
+
+
+
+
+
+
+
+    
