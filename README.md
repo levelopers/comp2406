@@ -57,3 +57,13 @@ ASSIGNEMNT 3 :  Real-Time Collaboration with Web Sockets
 
 ![gif3](https://user-images.githubusercontent.com/38830527/47385651-a2f44e80-d6d8-11e8-84be-7c8c04d8260a.gif)
 
+ASSIGNMENT 4 : API-based Express App
+
+	using pug(jade), express, bootstrap to build a Server application
+	
+	query JSON data from "food2Fork" server and render my html page through my server
+	
+	query data with both post and get method
+
+![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/38830527/48505165-679afa80-e814-11e8-8c46-801ccbd9faca.gif)
+
