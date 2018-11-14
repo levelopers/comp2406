@@ -1,15 +1,19 @@
 # 2406AFall2018
+Institution: Carleton University, School of Computer Science
 
+Instructor: Louis Nel
 
-
-works are not gonna be submitted, just for practice
-
-you can find valuable pieces as part your assignment work
-
-having fun!
 
 ## 2406Winter_assignments 
-[click](./2406Winter_assignments)
+Institution: Carleton University, School of Computer Science
+
+Instructor: Anil Somayaji
+
+[click to redirect to github page](./2406Winter_assignments)
+
+### ---all zip files description are from course and owned by instructors above
+
+### ---works are not gonna be submitted, just for practice
 
 
 
@@ -66,4 +70,5 @@ ASSIGNMENT 4 : API-based Express App
 	query data with both post and get method
 
 ![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/38830527/48505165-679afa80-e814-11e8-8c46-801ccbd9faca.gif)
+
 
