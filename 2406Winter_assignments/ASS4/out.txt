@@ -1,0 +1,10 @@
+Feb 17 08:02:31 chimera anacron[8503]: Job `cron.weekly' started 
+Feb 17 11:22:59 chimera systemd[1]: Started Session c9 of user soma. 
+Feb 17 11:22:50 chimera systemd[1]: Started Getty on tty1. 
+Feb 17 11:22:59 chimera systemd[1]: Started Locale Service. 
+Feb 17 11:23:04 chimera systemd[1]: Started Socket daemon for the usbmux protocol used by Apple devices. 
+Feb 17 11:23:05 chimera systemd[1]: Started Hostname Service. 
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler. 
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler. 
+Feb 17 12:46:02 chimera systemd[1]: Started An object/document-oriented database. 
+Feb 17 12:46:02 chimera systemd[1]: Started CUPS Scheduler. 

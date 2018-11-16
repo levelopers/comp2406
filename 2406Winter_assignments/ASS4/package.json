@@ -1,0 +1,14 @@
+{
+  "name": "ASSIGNMENT-4",
+  "version": "1.0.0",
+  "description": "insert and filter out data from/to mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "youcancallmeallen@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.9"
+  }
+}
