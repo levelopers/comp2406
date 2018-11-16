@@ -4,12 +4,14 @@ Institution: Carleton University, School of Computer Science
 Instructor: Louis Nel
 
 
-## 2406Winter_assignments 
+# 2406Winter_assignments 
 Institution: Carleton University, School of Computer Science
 
 Instructor: Anil Somayaji
 
 [click to redirect to winter_assignments github page](./2406Winter_assignments)
+
+<br/>
 
 #### ---all zip files description are from course and owned by instructors above
 
