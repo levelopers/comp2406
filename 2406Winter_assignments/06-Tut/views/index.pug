@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Please take the following short survey:
+  form(method="post", action="/add")
+    div
+      p First name?
+      input#firstname(type="text", name="firstname")
+    each questionText, questionName in questions
+       div
+         p #{questionText}
+         input(type="text", name=questionName, id=questionName)
+    p
+    button(type="submit") Submit

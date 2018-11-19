@@ -1,0 +1,5 @@
+  .graph_wrapper(style='width:'+(question.labels.length*barwidth + 2)+'px;') #{question.questionText}
+    .graph_fancy(data-x-label="Choices", data-y-label="Responses")
+      span.bar
+      each label,i in question.labels
+        span.bar(style='height:'+ 0.93*question.values[i]+"%;" + 'width:'+(barwidth-1)+'px;', data-bar-label=label, data-bar-value=question.values[i])
