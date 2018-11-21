@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 #{username}'s Account
+  p Welcome #{username}
+  form(action="/logout", method="post")
+        button(type="submit") Logout
+  h2 Users logged in
+  ul
+    each val, user in loggedInUsers
+      li= user
+  h2 Files uploaded:
+  ul
+    each s in stats
+      li #{s.name}: #{s.size}
+  form#uploadForm(method="post", enctype="multipart/form-data", action="/uploadText")
+    input(type="file", name="theFile")
+    input(type="submit", value="Upload File", name="submit")
