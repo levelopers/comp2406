@@ -18,8 +18,13 @@ Instructor: Anil Somayaji
 #### ---works are not gonna be submitted, just for practice
 
 
-
 <br/>
+
+-------------------------------------------------------------------------------------------------
+### uploaded virtual box image "linux32.vdi" with all applications in repo and testing envrionment
+ --- you can simply download the image to test codes!!
+ 
+-------------------------------------------------------------------------------------------------
 <br/>
 ASSIGNMENT 1 :  read file on server and send JSON object to client side page
 
