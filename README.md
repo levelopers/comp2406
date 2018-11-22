@@ -1,4 +1,4 @@
-# 2406AFall2018
+# 2406AFall2018 
 Institution: Carleton University, School of Computer Science
 
 Instructor: Louis Nel
@@ -21,9 +21,7 @@ Instructor: Anil Somayaji
 <br/>
 
 -------------------------------------------------------------------------------------------------
-### uploaded virtual box image "linux32.vdi" with all applications in repo and testing envrionment
- --- you can simply download the image to test codes!!
- 
+ 🎅 🎄 🎁 🔔🎅 🎄 🎁 🔔🎅 🎄 🎁 🔔🎅 🎄 🎁 🔔🎅 🎄 
 -------------------------------------------------------------------------------------------------
 <br/>
 ASSIGNMENT 1 :  read file on server and send JSON object to client side page
