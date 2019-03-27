@@ -7,7 +7,6 @@ const PORT = process.env.PORT || 3000
 
 app.listen(PORT)
 
-
 const MIME_TYPES = {
   css: "text/css",
   gif: "image/gif",
@@ -25,89 +24,66 @@ const MIME_TYPES = {
 
 function get_mine(filename) {
   for (let ext in MIME_TYPES) {
-    if (filename.indexOf(ext,filename.length-ext.length)!==-1) {
+    if (filename.indexOf(ext, filename.length - ext.length) !== -1) {
       return MIME_TYPES[ext]
     }
   }
-return MIME_TYPES['txt']
+  return MIME_TYPES['txt']
 }
-
 
 const ROOT_DIR = "html"
 //handle req and res
-function handler(request,response) {
-    let urlObj = url.parse(request.url,true,false)
-
-    console.log(`REQUEST URL PATH : ${urlObj.pathname}`);
-    console.log(`REQUEST DIRECTORY : ${ROOT_DIR+urlObj.pathname}`);
-    console.log(`REQUEST METHOD : ${request.method}`);
-
-    let receivedData = ""
-
-    request.on("data",function (chunk) {
-      receivedData += chunk
-    })
-
-    request.on("end",function () {
-      console.log(`REQUEST END`);
-      console.log(`receivedData : ${receivedData}`);
-      console.log(`type : ${typeof receivedData}`);
-
-      if (request.method=="GET") {
-
-        if (urlObj.pathname === "/") {
-          urlObj.pathname += "index.html"
+function handler(request, response) {
+  let urlObj = url.parse(request.url, true, false)
+  console.log(`REQUEST URL PATH : ${urlObj.pathname}`);
+  console.log(`REQUEST DIRECTORY : ${ROOT_DIR + urlObj.pathname}`);
+  console.log(`REQUEST METHOD : ${request.method}`);
+  let receivedData = ""
+  request.on("data", function (chunk) {
+    receivedData += chunk
+  })
+  request.on("end", function () {
+    console.log(`REQUEST END`);
+    console.log(`receivedData : ${receivedData}`);
+    console.log(`type : ${typeof receivedData}`);
+    if (request.method == "GET") {
+      if (urlObj.pathname === "/") {
+        urlObj.pathname += "index.html"
+      }
+      fs.readFile(ROOT_DIR + urlObj.pathname, function (err, data) {
+        if (err) {
+          console.log(err);
+          response.writeHead(404)
+          response.end(JSON.stringify(err))
         }
-
-        fs.readFile(ROOT_DIR+urlObj.pathname,function (err,data) {
-          if (err) {
-            console.log(err);
-            response.writeHead(404)
-            response.end(JSON.stringify(err))
-          }
-
-          response.writeHead(200,{
-            "Content-Type" : get_mine(urlObj.pathname)
-          })
-
-          response.end(data)
+        response.writeHead(200, {
+          "Content-Type": get_mine(urlObj.pathname)
         })
-      }
-
-
-    })//request end
-
-}//end handler
-
+        response.end(data)
+      })
+    }
+  })
+}
 let clientNumber = 0
-
-io.on("connection",function (socket) {
-
+io.on("connection", function (socket) {
   clientNumber = Object.keys(io.sockets.connected).length
-    console.log('player number : '+clientNumber);
-    // console.log(socket.id);
-    socket.join('playground', () => {
-        let rooms = Object.keys(socket.rooms);
-        // console.log(rooms); // [ <socket.id>, 'room 237' ]
-        // io.to('room 237').emit('a new user has joined the room'); // broadcast to everyone in the room
-      });
-
-      if (clientNumber>2) {
-        socket.leave('playground',function () {
-          console.log('you are leaving');
-        })
-      }else {
-        socket.on("ballOBJ",function (data) {//ball coor
-          console.log(data);
-          io.emit("ballOBJ",data)
-        })
-      }
-
-
-
+  console.log('player number : ' + clientNumber);
+  socket.join('playground', () => {
+    let rooms = Object.keys(socket.rooms);
+    // console.log(rooms); // [ <socket.id>, 'room 237' ]
+    // io.to('room 237').emit('a new user has joined the room'); // broadcast to everyone in the room
+  });
+  if (clientNumber > 2) {
+    socket.leave('playground', function () {
+      console.log('you are leaving');
+    })
+  } else {
+    socket.on("ballOBJ", function (data) {//ball coor
+      console.log(data);
+      io.emit("ballOBJ", data)
+    })
+  }
 })
-
-
 console.log("Server Running at PORT: 3000  CNTL-C to quit")
 console.log("To Test:")
 console.log("Open several browsers at: http://localhost:3000/")
