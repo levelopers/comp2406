@@ -1,6 +1,6 @@
 # Curling Game
 
-#### this is Carleton University COMP2406A Fall2018 Assignment 3
+
 
 
 
