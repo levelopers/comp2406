@@ -5,16 +5,16 @@
 
 
 
-Instruction:
+#### Instruction:
 
-  1.need install module by
+    1. install modules 
       cmd : npm install
   
-  2. run app by
-    cmd : node server.js
+    2. run app 
+      cmd : node server.js
     
-  3. open web browser enter 
-    url : localhost:3000
+    3. open browser enter 
+       url : http://localhost:3000
     
     
 ### application demonstration video
