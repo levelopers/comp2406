@@ -1,10 +1,8 @@
-
 const window_width = window.innerWidth
 const window_height = window.innerHeight
 const startX = 800
 const startY = 600
 const ball_radius = 15 //actual radius
-
 let allBalls = [
   { name: `ball1`, x: startX + ball_radius, y: startY - ball_radius, x_speed: 0, y_speed: 0, direction: [0, 0], color: `red` },
   { name: `ball2`, x: startX + ball_radius, y: 505, x_speed: 0, y_speed: 0, direction: [0, 0], color: `red` },
@@ -48,7 +46,6 @@ function drawCanvas() {
   ${ball_svg_l}
   </svg>`;
 }
-
 //return ball object
 function getBall(mouseX, mouseY) {
   for (var i = 0; i < allBalls.length; i++) {
@@ -129,8 +126,7 @@ function updateBall(ball) {
   ball.x += ball.x_speed
   ball.x_speed *= 0.95
   drawCanvas()
-}//end updateBall
-
+}
 //return array dirc
 function getDirection(ball) {
   //-1 +1
@@ -222,20 +218,17 @@ function ballCollision(ball1, ball2) {//change ball1, ball2 speed
   ball2.y_speed = v2y
   return
 }
-
 socket.on("ballOBJ", function (data) {
   console.log(`received data : ${data}`);
   let dataObj = JSON.parse(data)
   for (ball of allBalls) {
     if (dataObj.name === ball.name) {
-      // ball.name = dataObj.name
       ball.x = dataObj.x
       ball.y = dataObj.y
       updateBall(ball)
     }
   }
 })
-
 function handleTimer() {//trigger every 100
   let ball_coor = {}
   for (ball of allBalls) {
@@ -249,7 +242,6 @@ function handleTimer() {//trigger every 100
     updateBall(ball)
   }
 }
-
 function isCollision(movingBall) {
   for (ball of allBalls) {
     if (ball.x_speed !== 0 || ball.y_speed !== 0) {
